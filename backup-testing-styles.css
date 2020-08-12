@@ -1,0 +1,370 @@
+/* Slide show styles 
+ * @see https://codepen.io/gion/pen/MbLVZR
+*/
+.home .collection__container article:first-of-type .base-tease-inner figure{
+	transition: all 0s ease 0s;
+	overflow:hidden;
+
+}
+
+.home .collection__container article:first-of-type .base-tease__image-container figure img{
+	opacity: 0;/**/
+}
+
+.home .collection__container article:first-of-type .base-tease-inner figure:before, 
+.home .collection__container article:first-of-type .base-tease-inner figure:after{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover, 0 0;
+  background-position: center;
+  animation: gsd_slideshow 8s infinite;
+	
+}
+
+.home .collection__container article:first-of-type .base-tease-inner figure:after {
+   background-image: url("/wp-content/uploads/2020/08/frame-1.jpg"),  url("/wp-content/uploads/2020/08/Frame-2.jpg");
+
+}
+.home .collection__container article:first-of-type .base-tease-inner figure:before {
+  background-image: url("/wp-content/uploads/2020/08/Frame-2.jpg"), url("/wp-content/uploads/2020/08/frame-3.jpg");
+  animation-delay: 2s;
+}
+
+@keyframes gsd_slideshow {
+  0%, 100% {
+    opacity: 1;
+    background-size: cover, 0 0;
+  }
+  25% {
+    opacity: 1;
+    background-size: cover, 0 0;
+  }
+  50% {
+    opacity: 1;
+    background-size: 0 0, cover;
+  }
+  75% {
+    opacity: 1;
+    background-size: 0 0, cover;
+  }
+}
+
+.home .collection__container article:first-of-type .base-tease-inner figure{
+
+  transform: translate(0, 0);
+}
+/** end slideshow styles **/
+
+
+
+/** 7pm 2020 Aug 11 **/
+/* -- 2020 Aug Temp HMPG  -- */
+
+.home .collection__container .base-tease__text {
+	display: none;
+}
+
+@media screen and (min-width: 600px) {
+.home .collection__container article:first-of-type {
+	width: 85%;
+	
+}
+	article:first-of-type:after {
+		content: "";
+    display: table;
+    clear: both;
+	}
+
+}
+
+/* Slide show styles 
+ * @see https://codepen.io/gion/pen/MbLVZR
+*/
+.home .collection__container article:first-of-type .base-tease-inner figure{
+	transition: all 0s ease 0s;
+	overflow:hidden;
+	
+}
+
+.home .collection__container article:first-of-type .base-tease__image-container figure img{
+	opacity: 0;/**/
+}
+
+.home .collection__container article:first-of-type .base-tease-inner figure:before, 
+.home .collection__container article:first-of-type .base-tease-inner figure:after{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover, 0 0;
+  background-position: center;
+  animation: slideshow 8s infinite;
+	
+}
+
+.home .collection__container article:first-of-type .base-tease-inner figure:after {
+   background-image: url("/wp-content/uploads/2020/08/frame-1.jpg"),  url("/wp-content/uploads/2020/08/Frame-2.jpg");
+
+}
+.home .collection__container article:first-of-type .base-tease-inner figure:before {
+  background-image: url("/wp-content/uploads/2020/08/Frame-2.jpg"), url("/wp-content/uploads/2020/08/frame-3.jpg");
+  animation-delay: 0s;
+}
+
+@keyframes slideshow {
+  0%, 100% {
+    opacity: 1;
+    background-size: cover, 0 0;
+	
+  }
+  49% {
+    opacity: 0;
+    background-size: cover, 0 0;
+  }
+  50% {
+    opacity: 1;
+    background-size: 0 0, cover;
+  }
+  99% {
+    opacity: 0;
+    background-size: 0 0, cover;
+  }
+}
+
+.home .collection__container article:first-of-type .base-tease-inner figure{
+
+  transform: translate(0, 0);
+}
+/** end slideshow styles **/
+
+
+/* -- end 2020 Aug Temp -- */
+
+
+
+/* 7:15 2020 Aug 11 */ 
+/* -- 2020 Aug Temp HMPG  -- */
+
+.home .collection__container .base-tease__text {
+	display: none;
+}
+
+@media screen and (min-width: 600px) {
+.home .collection__container article:first-of-type {
+	width: 85%;
+	
+}
+	article:first-of-type:after {
+		content: "";
+    display: table;
+    clear: both;
+	}
+
+}
+
+/* Slide show styles 
+ * @see https://codepen.io/gion/pen/MbLVZR
+*/
+.home .collection__container article:first-of-type .base-tease-inner figure{
+	transition: all 0s ease 0s;
+	overflow:hidden;
+	
+}
+
+.home .collection__container article:first-of-type .base-tease__image-container figure img{
+	opacity: 0;/**/
+}
+
+.home .collection__container article:first-of-type .base-tease-inner figure:before, 
+.home .collection__container article:first-of-type .base-tease-inner figure:after{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover, 0 0;
+  background-position: center;
+  animation: slideshow 8s infinite;
+	
+}
+
+.home .collection__container article:first-of-type .base-tease-inner figure:after {
+   background-image: url("/wp-content/uploads/2020/08/frame-1.jpg"),  url("/wp-content/uploads/2020/08/Frame-2.jpg");
+
+}
+.home .collection__container article:first-of-type .base-tease-inner figure:before {
+  background-image: url("/wp-content/uploads/2020/08/Frame-2.jpg"), url("/wp-content/uploads/2020/08/frame-3.jpg");
+  animation-delay: 0s;
+}
+
+@keyframes slideshow {
+  0%, 100% {    opacity: 1;
+    background-size: cover, 0 0;
+  }
+  25% {
+    opacity: 0.5;
+    background-size: cover, 0 0;
+  }
+  26% {
+    opacity: 0.5;
+    background-size: 0 0, cover;
+  }
+  50% {
+    opacity: 1;
+    background-size: 0 0, cover;
+  }
+  75% {
+    opacity: 0.5;
+    background-size: 0 0, cover;
+  }
+  76% {
+    opacity: 0.5;
+    background-size: cover, 0 0;
+  }
+}
+
+.home .collection__container article:first-of-type .base-tease-inner figure{
+	-webkit-transform: translate(0,0);
+  transform: translate(0, 0);
+}
+/** end slideshow styles **/
+
+
+/* -- end 2020 Aug Temp -- */
+
+
+/* -- 2020 Aug 12 --*/
+/* changed cover to 100% 100% to address possible safari 
+ * All images that appear in rotation are only in the :before -moz-element: 
+ */
+ /* -- 2020 Aug Temp HMPG  -- */
+
+.home .collection__container .base-tease__text {
+	display: none;
+}
+
+@media screen and (min-width: 600px) {
+.home .collection__container article:first-of-type {
+	width: 85%;
+	
+}
+	article:first-of-type:after {
+		content: "";
+    display: table;
+    clear: both;
+	}
+
+}
+
+/* Slide show styles 
+ * @see https://codepen.io/gion/pen/MbLVZR
+ * @see https://medium.com/@gion_13/css-only-slideshow-98967e2ce80c
+ * https://staging.gsd.harvard.edu/wp-content/uploads/2020/08/frame-3.jpg
+ * 
+ * https://staging.gsd.harvard.edu/wp-content/uploads/2020/08/Frame-2.jpg
+ * 
+ * https://staging.gsd.harvard.edu/wp-content/uploads/2020/08/frame-1.jpg
+ * Only Seems to be loading the "before images"
+*/
+.home .collection__container article:first-of-type .base-tease-inner figure{
+	transition: all 0s ease 0s;
+	overflow:hidden;
+	
+}
+
+.home .collection__container article:first-of-type .base-tease__image-container figure img{
+	opacity: 0;
+}
+
+.home .collection__container article:first-of-type .base-tease-inner figure:before, 
+.home .collection__container article:first-of-type .base-tease-inner figure:after{
+ content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover, 0 0;
+  background-position: center;
+  animation: slideshow 9s 0s  infinite;
+	
+}
+
+.home .collection__container article:first-of-type .base-tease-inner figure:after {
+ /* 
+  * Images aren't appearing in rotation
+  * 
+  * background-image: url("/wp-content/uploads/2020/08/frame-3.jpg"); */
+}
+.home .collection__container article:first-of-type .base-tease-inner figure:before {
+  background-image: url("/wp-content/uploads/2020/08/frame-3.jpg"), url("/wp-content/uploads/2020/08/Frame-2.jpg"), url("/wp-content/uploads/2020/08/frame-1.jpg");
+  animation-delay: 1s;
+}
+
+@keyframes slideshow {
+	/* show 1st img */	
+	0%, 99%{
+		 opacity: 1;
+    background-size: 100% 100%, 0 0, 0 0;
+	}
+	/* hide 1st img */
+	15% {
+    opacity: 0;
+    background-size: 100% 100%, 0 0, 0 0;
+  }
+	/* fill element w/ 2nd img */
+	 16% {
+    opacity: 0;
+    background-size: 0 0, 100% 100%, 0 0;
+  }
+	/* show 2nd img */
+  33% {
+    opacity: 1;
+    background-size: 0 0, 100% 100%, 0 0;
+  }
+	/* hide 2nd img */
+	48%{
+		opacity: 0;
+    background-size: 0 0, 100% 100%, 0 0;
+	}
+	/* fill element w/ 3rd img */
+		49%{
+		opacity: 0;
+    background-size: 0 0, 0 0, 100% 100%;
+	}
+	/* show 3rd img */
+	66%{
+    opacity: 1;
+    background-size: 0 0, 0 0, 100% 100%;
+  }
+	
+	/* hide 3rd img */
+	81% {
+		   opacity: 0;
+       background-size: 0 0, 0 0, 100% 100%;
+	}
+
+		/* fill element w/ 1st img */
+	 82% {
+    opacity: 0;
+    background-size: 100% 100%, 0 0, 0 0;
+  }
+}
+
+.home .collection__container article:first-of-type .base-tease-inner figure{
+	-webkit-transform: translate(0,0);
+transform: translate(0,0);
+  position: relative;
+ 
+}
+/** end slideshow styles **/
+
+
+/* -- end 2020 Aug Temp -- */
